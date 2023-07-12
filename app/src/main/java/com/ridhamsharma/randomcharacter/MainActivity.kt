@@ -35,8 +35,8 @@ class MainActivity : AppCompatActivity() {
                 }
                 .setPositiveButton("4"){_,_,->
                     for(i in 0..3) {
-                    val rand =  ('a'..'z').random()
-                        etRandom?.setText(etRandom?.text.toString()+ rand.toString())
+                    val rand2 =  ('a'..'z').random()
+                        etRandom?.setText(etRandom?.text.toString()+ rand2.toString())
                     }
 
                 }
