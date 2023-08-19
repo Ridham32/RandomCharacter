@@ -31,7 +31,8 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this,"Clicked 3",Toast.LENGTH_SHORT).show()
                     for(i in 0..2) {
                         val rand =  ('a'..'z').random()
-                        etRandom?.setText(etRandom?.text.toString()+ rand.toString())                    }
+                        etRandom?.setText(etRandom?.text.toString()+ rand.toString())
+                    }
                 }
                 .setPositiveButton("4"){_,_,->
                     for(i in 0..3) {
